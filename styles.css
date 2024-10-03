@@ -1,0 +1,42 @@
+body {
+    background-color: #020555;
+    color: #ffffff;
+}
+
+p {
+    font-size: 20px;
+    font-family: Courier New ;
+    font-weight: bold
+}
+
+
+h1 {
+    color: #77d0fa ;
+    font-family: Courier New;
+}
+
+h2 {
+    color: #ff6d6a ;
+    font-family: Courier New;
+}
+
+
+a {
+    color: #ff6d6a ;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: Courier New ;
+    font-weight: bold
+}
+a:hover {
+    color: #6cc4a8
+}
+
+
+@counter-style space-counter {         
+    symbols: "\1F680" "\1F680" "\1F680" ;  
+    suffix: " ";                       
+  }
+li {
+    list-style-type: space-counter ;
+  }
